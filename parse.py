@@ -1,5 +1,11 @@
-import tkinter      #hopefully this should be a window manager for python
-def __main__():
+from tkinter import *
+#hopefully this should be a window manager for python
+
+
+def main():
+    window = Tk()
+    window.title("Political Data")
+    window.mainloop()
     #opens and saves the contents of a file to 'text' variable
     file = open("data/pac_example.txt", "r")
     text = file.read()
@@ -18,5 +24,6 @@ def __main__():
     #classic print statement debugging
     print(array)
 
-
+if __name__== "__main__":
+  main()
 
