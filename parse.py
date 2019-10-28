@@ -24,6 +24,8 @@ def main():
     #classic print statement debugging
     print(array)
 
+
+#run main method
 if __name__== "__main__":
   main()
 
