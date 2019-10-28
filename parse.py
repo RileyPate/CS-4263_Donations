@@ -23,6 +23,8 @@ def main():
             # print (y)
     #classic print statement debugging
     print(array)
+    
+    #plug this into matplotlib at some point to get some actual data out of it
 
 
 #run main method
